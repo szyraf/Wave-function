@@ -14,13 +14,11 @@ for (let i = 0; i < tab.length; i++) {
 
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
+ctx.lineWidth = 1;
 
 canvas.width  = BS * x;
 canvas.height = BS * y;
 
-ctx.strokeStyle = 'green';
-ctx.lineWidth = 1;
-ctx.fillStyle = 'green';
 
 let interval;
 
